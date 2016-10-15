@@ -12,6 +12,7 @@ public class generator : MonoBehaviour
     public int obstacleAmount;
     public Transform obstacles;
     
+    
     private Queue<Transform> obstacleQueue;
 
     // Use this for initialization
