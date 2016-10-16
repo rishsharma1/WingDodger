@@ -1,6 +1,12 @@
 # WingDodger
 Microsoft Surface game for COMP30019
 
+# Project Details
+
+## Group Members
+* Mingdong Tan, 722981
+* Rishabh Sharma, 694739
+
 
 # What the application does?
 
