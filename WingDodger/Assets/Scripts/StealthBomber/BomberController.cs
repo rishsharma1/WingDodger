@@ -23,8 +23,6 @@ public  class BomberController : MonoBehaviour {
     /// The rigid body of the plane.
     /// </summary>
     public Rigidbody rigidBody;
-
-    float tiltThreshold = 0.100f;
  
 
 	// Use this for initialization
@@ -38,7 +36,7 @@ public  class BomberController : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        DebugConsole.Log(Input.acceleration.x.ToString(),"normal");
+        //DebugConsole.Log(Input.acceleration.x.ToString(),"normal");
         
    
 

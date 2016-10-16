@@ -4,16 +4,26 @@ using System.Collections;
 public class bomberCollision : MonoBehaviour {
 
     public ParticleSystem hitParticles;
+    private bool crashed;
 
-    void Awake()
+    public bool Crashed
     {
-        Debug.Log(hitParticles);
+        get
+        {
+            return crashed;
+        }
+    }
 
+    void Start()
+    {
+        crashed = false;
     }
 
     void OnCollisionEnter(Collision collision)
     {
+        crashed = true;
         hitParticles.Play();
         GameObject.Find("stealth bomber 2").SetActive(false);
+        
     }
 }
