@@ -28,7 +28,6 @@ public  class BomberController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        DebugConsole.isVisible = true;
         rigidBody.velocity = planeVelocity*Vector3.forward;
 
 	}
