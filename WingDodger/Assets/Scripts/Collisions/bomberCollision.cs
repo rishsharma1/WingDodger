@@ -5,6 +5,7 @@ public class bomberCollision : MonoBehaviour {
 
     public ParticleSystem hitParticles;
     private bool crashed;
+	public GameObject gameOver;
 
     public bool Crashed
     {
@@ -24,6 +25,9 @@ public class bomberCollision : MonoBehaviour {
         crashed = true;
         hitParticles.Play();
         GameObject.Find("stealth bomber 2").SetActive(false);
+		gameOver.SetActive (true);
+		GameObject.Find ("pauseButton").SetActive (false);
+		GameObject.Find ("Slider").SetActive (false);
         
     }
 }
