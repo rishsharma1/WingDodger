@@ -39,13 +39,27 @@ public class GameManager : MonoBehaviour {
 
 
         if (points == 1000)
+        {
             treeGenerator.obstacleAmount += 100;
+            stealthBomber.GetComponent<BomberController>().planeVelocity += 10;
+        }
+
+        if (points == 3000)
+        {
+            stealthBomber.GetComponent<BomberController>().planeVelocity += 20;
+        }
 
         if (points == 10000)
+        {
             treeGenerator.obstacleAmount += 50;
-
+            stealthBomber.GetComponent<BomberController>().planeVelocity += 20;
+        }
+            
         if (points == 100000)
+        {
             treeGenerator.obstacleAmount += 75;
+            stealthBomber.GetComponent<BomberController>().planeVelocity += 50;
+        }          
 
         if (points == 1000000)
             treeGenerator.obstacleAmount += 100;
