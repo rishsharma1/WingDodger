@@ -68,6 +68,10 @@ We calculate an intital offset between the camera's position and the player's po
 * Smoke: http://www.vectorhq.com/psd/cartoon-smoke-psd-440442
 * Pause Button: http://www.iconarchive.com/show/windows-8-icons-by-icons8/Media-Controls-Pause-icon.html
 
+## Models
+* Stealth Bomber: http://www.turbosquid.com/3d-models/max-cartoon-stealth-bomber/1019682
+* Tree: Unity Standard Assets
+
 ## Code References
 * Infinite Terrain Generation: https://www.youtube.com/watch?v=dycHQFEz8VI
 * Cell-Shading: https://www.youtube.com/watch?v=3qBDTh9zWrQ
