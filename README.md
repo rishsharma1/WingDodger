@@ -14,7 +14,7 @@ Microsoft Surface game for COMP30019
 # What the application does?
 
 ## Description
-Wing dodger is a game about dodging elements in the terrain and surviving as long as possible, to achieve the highest score possible. You control a stealth bomber, moving it left and right as you progress through the landscape. The obstacles are generated randomly, where it encourages the player to dodge the obstacles and show off their flying skills. The game will end when the player crashes into one of the obstacles. The score will keep track of the player's ability, and as you get a higher score the game gets harder as you progress.  
+Wing dodger is a game about dodging elements in the terrain and surviving as long as possible. You control a stealth bomber, moving it left and right as you progress through the landscape. The obstacles are generated randomly, where it encourages the player to dodge the obstacles and show off their flying skills. The game will end when the player crashes into one of the obstacles. The score will keep track of the player's ability, and as you get a higher score the game gets harder as you progress.  
 
 # How to use it?
 
